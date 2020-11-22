@@ -3,6 +3,9 @@ language: java
 jdk: oraclejdk11
 type: runCI
 
+branches:
+  only:
+    - master
 build:
 ci:
 - mkdir -p shippable/testresults
