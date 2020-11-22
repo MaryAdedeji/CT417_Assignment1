@@ -14,7 +14,9 @@ ci:
       - cp -r target shippable/codecoverage
       
  after_success:
- -mvn -U clean install
+ - mvn clean cobertura:cobertura
+ - mvn test
+
 
         
 steps:
