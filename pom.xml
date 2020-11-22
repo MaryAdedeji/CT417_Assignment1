@@ -6,7 +6,6 @@
     <artifactId>StudentRegistrationSystem_Assignment</artifactId>
     <version>1.0-SNAPSHOT</version> 
    
-	</repositories>
     <dependencies>
         <dependency>
             <groupId>com.github.tkawachi</groupId>
